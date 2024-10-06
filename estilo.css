@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+body{
+  background-color: #7ec4cf;
+}
+/*contenedor Principal*/
+main{
+  width:900px;
+  height: 800px;
+  margin: 30px auto;
+  padding:20px;
+  border: #3ec25a 1px solid;
+  background-color: #fff;
+}
+/*Cabecera principal*/
+.cabecera{
+  height: 75px;
+  padding:10px;
+  background-color: #ddedea;
+}
+nav{ 
+  height: 40px;
+  }
+.menu{
+  margin-left: 60%; /*alineacion izquierda al medio del contenedor nav*/  
+  margin-top: 0.5em;
+
+  }
+.menu li{
+   display:inline; /*cambiar la presentacion de bloque por defecto a en linea*/   
+}
+/*propiedades del enlace (etiqueta a)*/
+.menu li a{  
+  font-size: 20px;
+  padding:5px;  
+  border-radius:5px 5px 0px 0px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  
+  }
+  .menu li a:hover{
+    background-color: coral;
+    color: #000;
+  }
+.imagen{
+  width:100px;
+  float:left;
+  margin:5px 20px;
+}
+article{
+ height: 500px;
+  width: 49%;
+  float:left; 
+}
+aside{
+  height: 500px; 
+  margin-left:51%;
+  }
+footer{
+    height: 100px;
+    clear:both;
+    background-color:  #ddedea;
+  }
+footer div{
+    float: left;
+  }
+.redes{
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+
+  }
+
+  
+.parrafo{
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #000c46;
+  margin: 15px;
+
+ 
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+hr{
+  height:4px;
+  border: none;
+  background:#008f1f;
+  margin: 1%;
+
+}
+#subtitulo{
+  background-color: #ff4800;
+}
+#subdos{
+  background-color: #00b2ca;
+}
+#subtres{
+  background-color: rgb(178, 178, 64);
+}
+#subcuatro{
+  background-color: #a69cac;
+
+}
+p span{
+ color: #ddedea;
+}
